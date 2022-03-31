@@ -1,0 +1,117 @@
+.modal__insta {
+    z-index: 9999;
+    position: relative;
+    top: 0px;
+    left: -48%;
+    width: 70vw;
+    height: 92%;
+    margin: 0 auto;
+}
+
+.moddal__close {
+    position: absolute;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    top: -40px;
+    right: -15%;
+    color: #fff;
+}
+
+.moddal__body {
+    position: relative;
+    display: flex;
+    padding: 0;
+}
+
+.media__insta {
+    width: 50%;
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 92vh;
+}
+
+.moddal__desc {
+    padding: 20px;
+    position: relative;
+    right: 0;
+}
+
+.moddal__desc_header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    .desc__link {
+        cursor: pointer;
+        text-decoration: none;
+        margin-right: 100px;
+    }
+    .bx-three-dot {
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
+.desc__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.about {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.about::-webkit-scrollbar {
+    width: 0;
+}
+
+.about__item {
+    display: flex;
+    gap: 10px;
+}
+
+.about__d-main {
+    position: relative;
+    top: 5px;
+}
+
+.time__desc {
+    color: rgb(179, 178, 178);
+    button {
+        margin-left: 10px;
+        border: none;
+        background-color: #fff;
+        color: rgb(184, 183, 183);
+    }
+}
+
+.desc__title {
+    font-weight: 700;
+}
+
+.moddal__view {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    svg {
+        color: #000;
+        margin-right: 7px;
+    }
+}
+
+.nrv__count {
+    font-weight: 700;
+}
