@@ -203,6 +203,39 @@ img {
   font-weight: 700;
 }
 
+.moddal__comment {
+  width: 100%;
+}
+
+.moddal__comment .add-comment-form {
+  margin-left: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.moddal__comment .add-comment-form button {
+  color: rgba(73, 90, 245, 0.801);
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+}
+
+.moddal__comment .add-comment-form .addcomment-input {
+  padding: 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
 .insta__section {
   margin-top: 50px;
 }

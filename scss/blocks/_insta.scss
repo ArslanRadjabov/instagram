@@ -115,3 +115,26 @@
 .nrv__count {
     font-weight: 700;
 }
+
+.moddal__comment {
+    width: 100%;
+    .add-comment-form {
+        margin-left: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        button {
+            color: rgba(73, 90, 245, 0.801);
+            font-weight: 700;
+            border: none;
+            background-color: transparent;
+        }
+        .addcomment-input {
+            padding: 5px;
+            width: 100%;
+            border: none;
+            outline: none;
+        }
+    }
+}
