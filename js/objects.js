@@ -4,18 +4,16 @@ let objects = [{
             "./videos/landscape3.mp4"
         ],
         name: "Landscapes",
-        post: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
+        post: " Amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
         view: 1002,
         likes: 999,
         save: false,
     },
     {
         id: 2,
-        media: ["./videos/imgs2.jpg",
-            "./videos/landscape4.mp4"
-        ],
-        name: "Landscapes",
-        post: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
+        media: ["./videos/imgs2.jpg", "./videos/imgs2-3.jpg", "./videos/imgs7.jpg"],
+        name: "evaluation yearth siynic status",
+        post: "Lorem ipsum dolorng elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
         view: 456,
         likes: 856,
         save: false,
@@ -23,7 +21,7 @@ let objects = [{
     {
         id: 3,
         media: ["./videos/imgs3.jpg", ],
-        name: "Landscapes",
+        name: "HUrry up being in worlds prettiies there",
         post: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
         view: 656,
         likes: 348,
@@ -32,10 +30,10 @@ let objects = [{
     {
         id: 4,
         media: ["./videos/imgs4.jpg",
-            "./videos/landscape3.mp4"
+            "./videos/landscape5.mp4"
         ],
-        name: "Landscapes",
-        post: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
+        name: "hull up huggy in the world the same",
+        post: "Lorem ipsum dolor sit amet il earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
         view: 654,
         likes: 254,
         save: false,
@@ -43,10 +41,10 @@ let objects = [{
     {
         id: 5,
         media: ["./images/imgs5.jpg",
-            "./videos/landscape3.mp4"
+
         ],
-        name: "Landscapes",
-        post: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
+        name: "worlds high mountin",
+        post: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quum aliquam fuga possimus, fugiat voluptates impedit pariatur!",
         view: 2035,
         likes: 468,
         save: false,
@@ -54,10 +52,10 @@ let objects = [{
     {
         id: 6,
         media: ["https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
-            "./videos/landscape3.mp4"
+
         ],
-        name: "Landscapes",
-        post: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
+        name: "Pretties plcaes on the world",
+        post: "Sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
         view: 2364,
         likes: 56,
         save: false,
@@ -65,28 +63,28 @@ let objects = [{
     {
         id: 7,
         media: ["./images/imgs6.jpg",
-            "./videos/landscape3.mp4"
+            "./videos/landscape6.mp4"
         ],
-        name: "Landscapes",
-        post: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
+        name: "Bang bang bang places",
+        post: "Lorem um, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
         view: 456,
         likes: 345,
         save: false,
     },
     {
         id: 8,
-        media: ["https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
-            "./videos/landscape3.mp4"
+        media: ["./images/imgs2-2.jpg", "./images/imgs2-3.jpg",
+
         ],
-        name: "Landscapes",
-        post: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
+        name: "Pretty hight place beatuiful",
+        post: "isicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
         view: 684,
         likes: 354,
         save: false,
     },
     {
         id: 9,
-        media: ["https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"],
+        media: ["./images/imgs7-2.jpg", "./videos/landscape6.mp4", "./videos/landscape5.mp4"],
         name: "Landscapes",
         post: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil earum, unde, adipisci, quo dolor sapiente beatae quod iure optio cum magni. Dicta praesentium aliquam fuga possimus, fugiat voluptates impedit pariatur!",
         view: 846,

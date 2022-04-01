@@ -19,7 +19,7 @@
         <div class="container">
             <nav class="header__nav d-flex">
                 <div class="header__nav-logo">
-                    <img src="images/instagram-logo.png" alt="s">
+                    <a href="#"><img src="images/instagram-logo.png" alt="s"></a>
                 </div>
                 <form class="form">
                     <i class='bx bx-search'></i>
@@ -45,7 +45,9 @@
                         <a href="#"><svg aria-label="Найти людей" class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="30"><polygon fill="none" points="13.941 13.953 7.581 16.424 10.06 10.056 16.42 7.585 13.941 13.953" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon><polygon fill-rule="evenodd" points="10.06 10.056 13.949 13.945 7.581 16.424 10.06 10.056"></polygon><circle cx="12.001" cy="12.005" fill="none" r="10.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle></svg></a>
                     </li>
                     <li class="header__item">
-                        <a href="#"><svg aria-label="Что нового" class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="30"><path d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z"></path></svg></a>
+                        <a href="#">
+                            <i onclick=" myFunction(this)" class='bx bx-heart'></i>
+                        </a>
                     </li>
                     <li class="header__item">
                         <a href="#">
@@ -55,13 +57,48 @@
             </nav>
         </div>
     </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__main d-flex gap-5">
+                <div class="hero__img">
+                    <img src="images/profile.webp" alt="">
+                </div>
+                <div>
+                    <div class="hero__title d-flex gap-3">
+                        <h3 class="hero__title-item">landscapebeautyphotos</h3>
+                        <span>Подписаться</span>
+                        <a><i class='bx bxs-chevron-down down-btn'></i></a>
+                        <a href="#"><i class='bx bx-dots-horizontal-rounded three-dot'></i></a>
+                    </div>
+                    <div class="hero__followers d-flex gap-5">
+                        <p class="follower-counts">72<span>публикаций</span></p>
+                        <p class="follower-counts">683<span>подписчиков</span></p>
+                        <p class="follower-counts">72<span>подписок</span></p>
+                    </div>
+                    <h5>Beautiful Landscape Photos</h5>
+                    <p class="text-tx">|Only Beautiful photos of the earth! <br> -📸 new post every day 📸<br> -📸 only quality posts 📸<br> -📸 active user 📸<br> |begginer photographer 📸 <br>
+                    </p>
+                    <a target="_blank" href="https://www.instagram.com/landscapebeautyphotos/">m.youtube.com/channel/UCs35oVjG2kEFkKbgadHqvnA</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="insta__section">
         <div class="container">
+            <hr>
+            <div class="sections">
+                <button class="section3"><i class='bx bx-grid'></i>Публикации</button>
+                <button class="section2"><i class='bx bx-play-circle'></i>Видео</button>
+                <button class="section1"><i class='bx bxs-contact'></i> отметки</button>
+            </div>
             <div class="insta__main">
-                <ul class="insta__list d-flex">
+                <ul class="insta__list">
+                    <!-- 
+                    <li class="insta__item col-md-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
 
-                    <!-- <li class="insta__item col-md-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <img src="images/imgs2.jpg" alt="">
+                        <img class="mainModal-img" src="images/imgs2.jpg" alt="">
+
+
                         <div class="insta__socials d-flex">
                             <div class="insta__itemSocials d-flex">
                                 <i class='bx bx-play'></i>
@@ -73,7 +110,7 @@
                             </div>
                         </div>
 
-                    </li> -->
+                    </li>
 
 
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -83,7 +120,9 @@
 
                                 <div class="modal-body moddal__body">
 
-                                    <img class="media__insta" src="images/imgs2.jpg"></img>
+                                    <div class="modal__hero--img">
+                                        <img class="media__insta" src="images/imgs2.jpg"></img>
+                                    </div>
 
                                     <div class="moddal__desc col-6">
                                         <div class="moddal__desc_header d-flex desc">
@@ -152,15 +191,19 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                </ul>
 
-
-
+                <ul class="save__list">
 
                 </ul>
             </div>
         </div>
     </section>
+
+    <div class="open__modal">
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>

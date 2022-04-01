@@ -1,0 +1,56 @@
+.hero {
+    margin-top: 100px;
+}
+
+.hero__img {
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    img {
+        transform: scale(1.1);
+        border-radius: 50%;
+    }
+}
+
+.hero__title-item {
+    font-weight: 300;
+}
+
+.hero__title {
+    span {
+        background-color: rgb(73, 129, 233);
+        color: #fff;
+        padding: 4px 25px;
+        border-radius: 3px;
+        height: 30px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+}
+
+.follower-counts {
+    font-weight: 500;
+    span {
+        margin-left: 10px;
+        font-weight: 400;
+    }
+}
+
+.sections {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    button {
+        color: rgb(146, 146, 146);
+        font-size: 13px;
+        margin-right: 70px;
+        font-weight: 500;
+        border: none;
+        background-color: transparent;
+        padding: 10px;
+        text-transform: uppercase;
+        &:hover {
+            color: #000;
+        }
+    }
+}

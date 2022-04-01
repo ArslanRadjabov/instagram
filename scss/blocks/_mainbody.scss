@@ -3,51 +3,71 @@
 }
 
 .insta__main {
-    padding: 50px 0;
+    padding: 15px 0;
     justify-content: center;
 }
 
-.insta__list {
+.save__list {
+    display: none;
     margin: 0 auto;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 0;
-    column-gap: 28px;
-    .insta__item {
-        cursor: pointer;
-        position: relative;
-        padding: 0;
-        margin-bottom: 28px;
-        height: 293px;
-        width: 293px;
-        img {
-            width: 293px;
-            height: 293px;
-        }
+}
+
+.insta__list {
+    display: none;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+.down-btn {
+    padding: 7px;
+    background-color: rgb(108, 117, 240);
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.three-dot {
+    font-size: 30px;
+    color: #000;
+}
+
+.insta__item {
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+    margin-bottom: 28px;
+    height: 293px;
+    width: 293px;
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.219);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        z-index: 99;
+        transition: all ease 0.5s;
+    }
+    &:hover {
         &::after {
-            content: '';
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
-            display: none;
-            background-color: rgba(0, 0, 0, 0.219);
-            background-size: cover;
-            background-position: center;
-            position: absolute;
-            z-index: 99;
-            transition: all ease 0.5s;
+            display: block
         }
-        &:hover {
-            &::after {
-                display: block
-            }
-            .insta__socials {
-                opacity: 1;
-                transform: translateY(0)
-            }
+        .insta__socials {
+            opacity: 1;
+            transform: translateY(0)
         }
     }
 }
@@ -71,4 +91,26 @@
         font-size: 25px;
         margin-right: 5px;
     }
+}
+
+header {
+    .bx-heart {
+        position: relative;
+        top: 4px;
+    }
+}
+
+.modal__heart {
+    font-size: 30px;
+    top: -1px !important;
+    margin-right: 5px;
+}
+
+.text-tx {
+    line-height: 2;
+    font-weight: 300 !important;
+}
+
+.show {
+    display: flex;
 }

@@ -15,6 +15,10 @@
 }
 
 .header__nav-logo {
+    img {
+        width: 103;
+        height: 29px;
+    }
     margin-right: 150px;
 }
 
@@ -55,7 +59,12 @@
 .search__bar {
     width: 268px;
     border: none;
-    background-color: rgb(243, 239, 239);
+    background-color: #EFEFEF;
     border-radius: 8px;
-    padding: 7px 30px;
+    padding: 7px 35px;
+    font-size: 18px;
+}
+
+.search__bar:focus {
+    outline: none;
 }
